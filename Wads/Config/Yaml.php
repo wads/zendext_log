@@ -1,12 +1,23 @@
 <?php
+ /**
+  * Zend Framework extensional component
+  *
+  * @category   Wads
+  * @package    Wads_Config
+  * @copyright  Copyright (c) 2008-2009 wads. (wads@gmail.com)
+  * @license    http://framework.zend.com/license/new-bsd     New BSD License
+  */
+
 /**
  * @see Zend_Config.php
  */
 require_once 'Zend/Config.php';
 
 /**
- * @copyright  wads (wadslab@gmail.com)
- * @license    http://framework.zend.com/license/new-bsd     New BSD License
+ * @category   Wads
+ * @package    Wads_Config
+ * @see http://wadslab.net/2008/05/zend_config-3/
+ * @copyright  Copyright (c) 2008-2009 wads. (wads@gmail.com)
  */
 class Wads_Config_Yaml extends Zend_Config
 {
