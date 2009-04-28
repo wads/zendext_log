@@ -16,6 +16,6 @@ require_once 'Wads/Exception.php';
   * @package    Wads_Log
   * @copyright  Copyright (c) 2008 wads. (wads@gmail.com)
   */
-class Wads_Log_Exception extends Wads_Exception
+class Wads_Log_Exception extends Exception
 {
 }
